@@ -1,0 +1,233 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3, h4, h5 {
+    color: #333;
+}
+
+a {
+    color: #ff7d00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff7d00;
+}
+
+/* Navigation */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.nav-link {
+    color: #333 !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #ff7d00 !important;
+}
+
+/* Home Section */
+.home {
+    background-color: #f9f9f9;
+    padding: 100px 0;
+}
+
+.home .card {
+    border: none;
+    background: transparent;
+}
+
+.home h1 {
+    font-size: 2.5rem;
+    color: #ff7d00;
+}
+
+.home h4 {
+    color: #555;
+}
+
+.home .btn-primary {
+    background-color: #ff7d00;
+    border: none;
+}
+
+.home .btn-primary:hover {
+    background-color: #cc6600;
+}
+
+/* Vision Section */
+.vision {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.vision h3 {
+    color: #ff7d00;
+}
+
+.vision h1 {
+    margin-bottom: 40px;
+}
+
+.vision .item {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.vision .item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vision .btn-primary {
+    background-color: #ff7d00;
+    border: none;
+}
+
+/* Components Section */
+.components {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+.components .card {
+    border: none;
+    background: transparent;
+}
+
+.components .btn-outline-secondary {
+    color: #ff7d00;
+    border-color: #ff7d00;
+}
+
+.components .btn-outline-secondary:hover {
+    background-color: #ff7d00;
+    color: #fff;
+}
+
+/* Client Section */
+.client {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.client h3 {
+    color: #ff7d00;
+}
+
+.client h1 {
+    margin-bottom: 40px;
+}
+
+.client .client1 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.client .heading h4 {
+    font-size: 1rem;
+    color: #555;
+}
+
+.client .heading h5 {
+    font-size: 1.2rem;
+    color: #ff7d00;
+    font-weight: bold;
+}
+
+/* Team Section */
+.team {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+.team h3 {
+    color: #ff7d00;
+}
+
+.team h1 {
+    margin-bottom: 40px;
+}
+
+.team .card {
+    border: none;
+    text-align: center;
+}
+
+.team .card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.team .card-footer {
+    background-color: #fff;
+    border-top: none;
+}
+
+/* Newsletter Section */
+.news {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.news h3 {
+    color: #ff7d00;
+}
+
+.news h1 {
+    margin-bottom: 40px;
+}
+
+.news .i1, .news .i2 {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.news .i2 {
+    background-color: #ff7d00;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.news .i2:hover {
+    background-color: #cc6600;
+}
+
+/* Footer */
+.footer {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.footer .navbar-brand img {
+    height: 40px;
+}
+
+.footer p {
+    color: #555;
+}
+
+.footer .card-footer {
+    background-color: #fff;
+    border-top: none;
+    text-align: center;
+    color: #777;
+}

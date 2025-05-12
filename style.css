@@ -1,0 +1,267 @@
+:root{
+    --primary-color: #ff7d00;
+    --secondary-color: #333;
+    --text-color: #555555;
+    --heading-color: #333;
+    --third-color:#4c00a4;
+
+}
+
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+}
+.fixed-top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+/* navbar */
+.nav{
+    .sign{
+        a{
+            color: black;
+        }
+        .btn{
+            background: var(--primary-color);
+            color: white;
+            border: none;
+        }
+    }
+}
+
+
+/* Home */
+.home{
+    padding-top: 180px;
+    h1{
+        font-weight: 800px;
+    }
+    .btn{
+        background: var(--primary-color);
+        color: white;
+        border: none;
+        margin-right: 30px;
+        margin-left:20px;
+        height: 50px;
+        padding: 10px 10px;
+    }
+    a{
+        color: black;
+
+        .img{
+            height: 46px;
+        }
+    }
+    .card{
+        border: none;
+        
+        .card-body{
+            margin-bottom: 90px;
+        }
+    }
+}
+
+/* Vision */
+.vision{
+    padding-top: 100px;
+    h3{
+        color: #8e9eb5;
+        letter-spacing: 0.5rem;
+        font-size: 20px;
+    }
+    .head{
+        margin-bottom: 60px;
+        
+    }
+    .item{
+        text-align: center;
+        a{
+            color: black;
+                   
+        }
+
+        .item_content{
+            .btn{
+                background: var(--primary-color);
+                color: white;
+                border: none;
+                padding: 10px 10px;
+            }
+        }
+    }
+    
+}
+
+/* components */
+.components{
+    padding-top: 100px;
+    .card{
+        border: none;
+
+        h5{
+            font-size: 30px;
+            font-weight: 700;
+            color: var(--third-color);
+        }
+        p{
+            font-size: 20px;
+        }
+
+        .card-body{
+            margin-bottom: 70px;
+
+            .btn{
+                margin-left: 20px;
+                color: var(--third-color);
+            }
+            
+        }
+    }
+}
+
+/* client */
+.client{
+    margin-top: 80px;
+    padding-top: 100px;
+    h3{
+        color: #8e9eb5;
+        letter-spacing: 0.5rem;
+        font-size: 20px;
+    }
+
+    .card{
+        border: none;
+
+        .client1{
+            margin-left: 30px;
+            width: 400px;
+        }
+        .heading{
+            h4{
+                font-size: 20px;
+                font-weight: 500;
+            }
+            h5{
+                color: #8e9eb5;
+                margin-top: 60px;
+                font-size: 16px;
+                font-weight: 500;
+                letter-spacing: 1.5px;
+            }
+        }
+    }
+}
+
+/* Team */
+.team{
+    padding-top: 100px;
+    h3{
+        color: #8e9eb5;
+        letter-spacing: 0.5rem;
+        font-size: 20px;
+    }
+    .card-group{
+        .card{
+            border: 1px solid #d3d3d3;
+            .c1{
+                height: 60px;
+                width: 60px;
+                
+            }
+            h5{
+                text-align: center;
+            }
+            p{
+                text-align: center;
+                color: #8e9eb5;
+                
+            }
+            .card-footer{
+                border-color: #d3d3d3;
+                height: 60px;
+                margin-top: 60px;
+            
+
+            }
+        }     
+    }
+}
+
+/* Newsletter */
+.news{
+    padding-top: 100px;
+    .n1{
+        h3{
+            color: #8e9eb5;
+            letter-spacing: 0.5rem;
+            font-size: 20px;
+        }
+    }
+    .card{
+        border: none;
+        .card-body{
+            h3{
+                font-size: 25px;
+                font-weight: 400;
+                margin-bottom: 90px;
+            }
+            .i1{
+                padding-left: 50px;
+                height: 50px;
+                
+            }
+            .i1::placeholder {
+                font-size: 25px;
+                
+              }
+            .i2{
+                background: var(--primary-color);
+                color: white;
+                padding: 10px 10px;
+            }
+            .i2::placeholder {
+                color: white;
+                opacity: 1;
+                font-size: 25px;
+                
+              }
+        }
+    }
+
+}
+
+/* footer */
+.footer{
+    padding-top: 100px;
+    .nav-link{
+        color: var(--third-color);
+    }
+    .card-footer{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+  
+
+/* @media (max-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+    }
+} */
+@media (max-width: 992px) {
+    .footer .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    }
+} 
